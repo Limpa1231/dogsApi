@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 213, 213);
+}
+
+.container {
+    margin-top: 4%;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px; 
+    height: 1440px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.card {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;   
+}
+
+.changeBtn {
+    padding: 10px;
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.changeBtn:hover {
+    background-color: rgba(29, 194, 29, 0.919);
+    transition: all 0.5s ease-in;
+}
